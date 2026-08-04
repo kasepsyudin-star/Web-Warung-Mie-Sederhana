@@ -1,0 +1,148 @@
+/* Global Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000000;
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Hero Section */
+.hero {
+  background: url("mie-hero.jpg") no-repeat center center;
+  background-size: cover;
+  color: rgb(7, 5, 5);
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Menu Cards Styling */
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  height: 250px;
+}
+
+/* About Section */
+#about {
+  background-color: #131010;
+  padding: 50px 0;
+}
+
+/* Contact Form Styling */
+form input,
+form textarea {
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+form button {
+  border-radius: 5px;
+  background-color: #007bff;
+  color: rgb(12, 10, 10);
+  padding: 12px 20px;
+  border: none;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #413737;
+  color: rgb(75, 68, 68);
+}
+/* Styling untuk card produk */
+.card {
+  width: 15.5rem;
+  float: left;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Gambar produk */
+.produkitem {
+  width: 100%; /* Membuat gambar lebar penuh */
+  height: 200px; /* Menentukan tinggi gambar */
+  object-fit: cover; /* Memastikan gambar mengisi kontainer tanpa merusak proporsi */
+  border-radius: 10px; /* Memberikan sudut membulat pada gambar */
+}
+
+/* Menata konten card */
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+.btn {
+  margin: 5px;
+}
+
+/* Agar card berada di tengah jika tidak cukup ruang */
+.listproduk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
